@@ -1,5 +1,5 @@
-def reverse_each_word.each do |string|
-  new_words = []
-  string.reverse
-  new_words
+def reverse_each_word(sentence)
+  reversed = (sentence.split.map do |word|
+    word.reverse_each_word
+  end).join(' ')
 end
