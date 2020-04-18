@@ -8,5 +8,8 @@ def reverse_each_word(sentence)
       reversed_array << word.reverse.join(' ')
   binding.pry
   end
-  reversed_array.to_s
+  reversed_array
+  reversed_array.each do |word|
+    word.split.join(' ')
+  end
 end
