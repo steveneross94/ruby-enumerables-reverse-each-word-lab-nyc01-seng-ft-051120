@@ -9,7 +9,4 @@ def reverse_each_word(sentence)
 
   end
   reversed_array
-  reversed_array.each do |word|
-    word.split.join(' ')
-  end
 end
