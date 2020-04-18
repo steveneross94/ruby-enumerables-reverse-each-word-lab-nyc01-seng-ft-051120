@@ -1,4 +1,5 @@
-def reverse_each_word(sentence)
-  sentence.split = new_sentence
-  new_sentence.reverse
+require 'pry'
+def reverse_each_word(sentence1, sentence2)
+  sentence1.split(' ')
+  binding.pry
 end
