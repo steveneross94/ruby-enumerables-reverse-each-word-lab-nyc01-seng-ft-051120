@@ -6,5 +6,5 @@ def reverse_each_word(sentence)
     word.reverse
     reversed_sentence << word.reverse
   end
-  reversed_sentence
+  reversed_sentence.to_s
 end
